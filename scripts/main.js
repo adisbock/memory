@@ -14,9 +14,13 @@ images.push(new Image());
 images[images.length - 1].src = "images/House 3.png";
 
 images[0].onload = function() {
-    c.drawImage(images[0], 5, 5, 40, 40);
+    c.drawImage(images[0], 5, 5, 100, 200);
 }
 
 images[1].onload = function() {
-    c.drawImage(images[1], 55, 5, 40, 40);
+    c.drawImage(images[1], 110, 5, 100, 200);
+}
+
+images[2].onload = function() {
+    c.drawImage(images[1], 220, 5, 100, 200);
 }
